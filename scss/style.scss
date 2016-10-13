@@ -1,59 +1,47 @@
 @font-face {
-    font-family: 'MaSuperPolice';
-    src: url('../fonts/Lato-Light.eot') format('eot'),
-         url('../fonts/Lato-Light.woff') format('woff'),
-         url('../fonts/Lato-Light.ttf') format('truetype');}
-@font-face {
-    font-family: 'MaSuperPolice2';
-    src: url('../fonts/Lato-Italic.ttf') format('truetype'),     
+  font-family: 'MaSuperPolice';
+  src: url("../fonts/Lato-Light.eot") format("eot"), url("../fonts/Lato-Light.woff") format("woff"), url("../fonts/Lato-Light.ttf") format("truetype");
 }
-
+@font-face {
+  font-family: 'MaSuperPolice2';
+  src: url("../fonts/Lato-Italic.ttf") format("truetype");
+}
 body {
 	#page1{
 		background-color:#3d4450; 
-
 		.navbar{
 			background-color: transparent;
 			border-color: transparent;
-			margin-right: 60px;
 		}
-		
 		li a{
 			color: #ffffff;
 		}
-
 		li a:hover {
 			color: #99cc33;
 		}
-
 		li.active a{
 			background-color: transparent;
 			color: #99cc33;
 		}
-
 		.search {
 			background-color: transparent;
 			border-radius: 20px;
 			width: 80%;
 			height: 40px;
 		}
-
 		#title {
 			font-family: 'MaSuperPolice';
 			color: #ffffff;
 			font-size: 45px;
-			margin-top: 110px;
+			margin-top: 80px;
 		}
-
 		.text{
 			font-family: 'MaSuperPolice2';
 			font-size: 15px;
 		}
-
 		.container {
 			.boutons{
 				margin-top: 30px;
-
 				#btnA{
 					height: 50px;
 					width: 200px;
@@ -61,7 +49,6 @@ body {
 					border-color: #ffffff;
 					background-color: transparent;
 				}
-
 				#btnB{
 					height: 50px;
 					width: 200px;
@@ -69,17 +56,30 @@ body {
 					background-color:#99cc33 ;
 					color: black;
 				}
-
 				#btnB:hover{
 					color: #ffffff;
 				}
 			}	
 		}
-
 		.image {
 			margin-top: 50px;
+		}
+	}
 
+	#page2 {
+		.title{
+			margin-top: 60px;
+			font-size: 30px;
+			font-family: 'MaSuperPolice';
+		}
+		hr{
+			width: 100px;
+			background-color: #99cc33;
+			height: 1px;
 		}
 
+		.features {
+			margin-bottom: 60px;
+		}
 	}
 }

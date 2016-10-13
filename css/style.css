@@ -12,7 +12,6 @@ body #page1 {
 body #page1 .navbar {
   background-color: transparent;
   border-color: transparent;
-  margin-right: 60px;
 }
 body #page1 li a {
   color: #ffffff;
@@ -34,7 +33,7 @@ body #page1 #title {
   font-family: 'MaSuperPolice';
   color: #ffffff;
   font-size: 45px;
-  margin-top: 110px;
+  margin-top: 80px;
 }
 body #page1 .text {
   font-family: 'MaSuperPolice2';
@@ -62,4 +61,17 @@ body #page1 .container .boutons #btnB:hover {
 }
 body #page1 .image {
   margin-top: 50px;
+}
+body #page2 .title {
+  margin-top: 60px;
+  font-size: 30px;
+  font-family: 'MaSuperPolice';
+}
+body #page2 hr {
+  width: 100px;
+  background-color: #99cc33;
+  height: 1px;
+}
+body #page2 .features {
+  margin-bottom: 60px;
 }

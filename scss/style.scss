@@ -1,0 +1,23 @@
+body {
+	#page1{
+		background-color:#3d4450; 
+
+		.navbar{
+			background-color: transparent;
+			border-color: transparent;
+			margin-right: 60px;
+		}
+
+		li.active a{
+			background-color: transparent;
+			color: #99cc33;
+		}
+
+		.search {
+			background-color: transparent;
+			border-radius: 20px;
+			width: 80%;
+			height: 40px;
+		}
+	}
+}

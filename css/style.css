@@ -75,3 +75,9 @@ body #page2 hr {
 body #page2 .features {
   margin-bottom: 60px;
 }
+body #page2 i {
+  color: #99cc33;
+}
+body #page2 #vector {
+  color: black !important;
+}

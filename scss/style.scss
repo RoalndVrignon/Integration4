@@ -254,8 +254,15 @@ body {
 #partie2 {
 	background: $background-color!important;
 	padding-top: 20px;
+	i {
+		margin-bottom: 50px;
+	}
+	h5 {
+		margin-top: 25px;
+	}
 	#partie2v2 {
-		margin-top: 5%;
+		margin-top: 10%;
+		margin-bottom: 10%;
 	}
 }
 .rotate {
@@ -263,7 +270,7 @@ body {
 	-webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
 	transform: rotate(7deg);
 	height: 200px;
-	background: black;
+	background: $background-color;
 	margin-top: -8%;
 }
 .rotate2 {
@@ -271,7 +278,7 @@ body {
 	-webkit-transform: rotate(-7deg); /* Chrome, Safari, Opera */
 	transform: rotate(-7deg);
 	height: 200px;
-	background: black;
+	background: $background-color;
 	margin-top: -8%;
 }
  #services {

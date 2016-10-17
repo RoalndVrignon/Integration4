@@ -228,8 +228,15 @@ body #vector {
   background: #f8f8f8 !important;
   padding-top: 20px;
 }
+#partie2 i {
+  margin-bottom: 50px;
+}
+#partie2 h5 {
+  margin-top: 25px;
+}
 #partie2 #partie2v2 {
-  margin-top: 5%;
+  margin-top: 10%;
+  margin-bottom: 10%;
 }
 
 .rotate {
@@ -239,7 +246,7 @@ body #vector {
   /* Chrome, Safari, Opera */
   transform: rotate(7deg);
   height: 200px;
-  background: black;
+  background: #f8f8f8;
   margin-top: -8%;
 }
 
@@ -250,7 +257,7 @@ body #vector {
   /* Chrome, Safari, Opera */
   transform: rotate(-7deg);
   height: 200px;
-  background: black;
+  background: #f8f8f8;
   margin-top: -8%;
 }
 

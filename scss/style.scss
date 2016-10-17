@@ -105,13 +105,26 @@ body {
 			border-radius: 2px;
 			background: transparent;
 			margin-top: 15px;
+			margin-bottom: 15px;
 		}
 	}
 	#page4 {
+		h1 {
+			margin-top: 5%;
+		}
 		p {
 			padding-left: 15%;
 			padding-right: 15%;
 			font-style: italic;
+		}
+		.ttt {
+			margin-bottom: 10%;
+			height: 50px;
+			width: 200px;
+			border:1px solid $color-green;
+			border-radius: 2px;
+			background: $color-green;
+			margin-top: 15px;
 		}
 	}
 }
@@ -120,6 +133,37 @@ body {
 	margin-left: 16px;
 	margin-bottom:50px;
 }
+.ligne2 {
+	border-top: 2px solid $color-green;
+	margin-bottom: 25px;
+	margin-top: 10px;
+}
 #partie2 {
 	background: $background-color!important;
+	padding-top: 20px;
+	#partie2v2 {
+		margin-top: 5%;
+	}
+	h4 {
+		font-size: 1.2vw;
+	}
 }
+.rotate {
+	-ms-transform: rotate(7deg); /* IE 9 */
+	-webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
+	transform: rotate(7deg);
+	height: 100px;
+	background: $background-color;
+	margin-top: -4%;
+}
+.rotate2 {
+	-ms-transform: rotate(-7deg); /* IE 9 */
+	-webkit-transform: rotate(-7deg); /* Chrome, Safari, Opera */
+	transform: rotate(-7deg);
+	height: 100px;
+	background: $background-color;
+	margin-top: -4%;
+}
+ #services {
+	 margin-top: 10%;
+ }

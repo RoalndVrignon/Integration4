@@ -92,11 +92,24 @@ body #page3 .tmm {
   border-radius: 2px;
   background: transparent;
   margin-top: 15px;
+  margin-bottom: 15px;
+}
+body #page4 h1 {
+  margin-top: 5%;
 }
 body #page4 p {
   padding-left: 15%;
   padding-right: 15%;
   font-style: italic;
+}
+body #page4 .ttt {
+  margin-bottom: 10%;
+  height: 50px;
+  width: 200px;
+  border: 1px solid #99cc33;
+  border-radius: 2px;
+  background: #99cc33;
+  margin-top: 15px;
 }
 
 .ligne {
@@ -105,6 +118,45 @@ body #page4 p {
   margin-bottom: 50px;
 }
 
+.ligne2 {
+  border-top: 2px solid #99cc33;
+  margin-bottom: 25px;
+  margin-top: 10px;
+}
+
 #partie2 {
   background: #f8f8f8 !important;
+  padding-top: 20px;
+}
+#partie2 #partie2v2 {
+  margin-top: 5%;
+}
+#partie2 h4 {
+  font-size: 1.2vw;
+}
+
+.rotate {
+  -ms-transform: rotate(7deg);
+  /* IE 9 */
+  -webkit-transform: rotate(7deg);
+  /* Chrome, Safari, Opera */
+  transform: rotate(7deg);
+  height: 100px;
+  background: #f8f8f8;
+  margin-top: -4%;
+}
+
+.rotate2 {
+  -ms-transform: rotate(-7deg);
+  /* IE 9 */
+  -webkit-transform: rotate(-7deg);
+  /* Chrome, Safari, Opera */
+  transform: rotate(-7deg);
+  height: 100px;
+  background: #f8f8f8;
+  margin-top: -4%;
+}
+
+#services {
+  margin-top: 10%;
 }

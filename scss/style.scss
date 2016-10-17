@@ -240,7 +240,7 @@ body {
 		z-index: 2;
 		margin-top:$background-color
 	}
-}
+
 .ligne {
 	border-top: 2px solid $color-green;
 	margin-left: 16px;
@@ -263,7 +263,7 @@ body {
 	-webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
 	transform: rotate(7deg);
 	height: 200px;
-	background: $background-color;
+	background: black;
 	margin-top: -8%;
 }
 .rotate2 {
@@ -271,7 +271,7 @@ body {
 	-webkit-transform: rotate(-7deg); /* Chrome, Safari, Opera */
 	transform: rotate(-7deg);
 	height: 200px;
-	background: $background-color;
+	background: black;
 	margin-top: -8%;
 }
  #services {

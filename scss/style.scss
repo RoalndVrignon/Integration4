@@ -118,7 +118,7 @@ body {
 			font-style: italic;
 		}
 		.ttt {
-			margin-bottom: 10%;
+			margin-bottom: 3%;
 			height: 50px;
 			width: 200px;
 			border:1px solid $color-green;
@@ -126,6 +126,8 @@ body {
 			background: $color-green;
 			margin-top: 15px;
 		}
+		z-index: 2;
+		margin-top:$background-color
 	}
 }
 .ligne {
@@ -144,25 +146,22 @@ body {
 	#partie2v2 {
 		margin-top: 5%;
 	}
-	h4 {
-		font-size: 1.2vw;
-	}
 }
 .rotate {
 	-ms-transform: rotate(7deg); /* IE 9 */
 	-webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
 	transform: rotate(7deg);
-	height: 100px;
+	height: 200px;
 	background: $background-color;
-	margin-top: -4%;
+	margin-top: -8%;
 }
 .rotate2 {
 	-ms-transform: rotate(-7deg); /* IE 9 */
 	-webkit-transform: rotate(-7deg); /* Chrome, Safari, Opera */
 	transform: rotate(-7deg);
-	height: 100px;
+	height: 200px;
 	background: $background-color;
-	margin-top: -4%;
+	margin-top: -8%;
 }
  #services {
 	 margin-top: 10%;

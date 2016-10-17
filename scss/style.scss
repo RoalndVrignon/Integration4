@@ -6,6 +6,8 @@
   font-family: 'MaSuperPolice2';
   src: url("../fonts/Lato-Italic.ttf") format("truetype");
 }
+$color-green : #99cc33;
+$background-color: #f8f8f8;
 body {
 	#page1{
 		background-color:#3d4450; 
@@ -53,7 +55,7 @@ body {
 					height: 50px;
 					width: 200px;
 					border-radius: 2px;
-					background-color:#99cc33 ;
+					background-color:$color-green ;
 					color: black;
 				}
 				#btnB:hover{
@@ -74,7 +76,7 @@ body {
 		}
 		hr{
 			width: 100px;
-			background-color: #99cc33;
+			background-color: $color-green;
 			height: 1px;
 		}
 
@@ -84,7 +86,7 @@ body {
 
 		i {
 			
-			color: #99cc33;
+			color: $color-green;
 			
 		}
 
@@ -93,4 +95,21 @@ body {
 
 			}
 	}
+	#page3 {
+		background: $background-color ;
+		padding-top: 5%;
+		.tmm {
+			height: 50px;
+			width: 200px;
+			border:1px solid #000;
+			border-radius: 2px;
+			background: transparent;
+			margin-top: 15px;
+		}
+	}
+}
+.ligne {
+	border-top: 2px solid $color-green;
+	margin-left: 16px;
+	margin-bottom:50px;
 }
